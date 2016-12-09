@@ -243,6 +243,53 @@
 						<h1>Activities</h1>
 						<h2></h2>
 					</section>
+					<section>
+						<h2>Que negócio é esse?</h2>
+						<p>Activity é um componente de aplicativo que fornece uma tela com a qual os usuários podem interagir para fazer algo, como discar um número no telefone, tirar uma foto, enviar um e-mail ou ver um mapa. Cada atividade recebe uma janela que exibe a interface do usuário. Geralmente, a janela preenche a tela, mas pode ser menor que a tela e flutuar sobre outras janelas.</p>
+						<p><i>Descrição do Android Developer</i></p>
+					</section>
+					<section data-background="../images/img17.gif">
+						<h1>Ciclo de vida</h1>
+					</section>
+					<section data-background="../images/img18.jpg">
+						<h1 class="fragment">Metodos</h1>
+					</section>
+					<section>
+						<h4 class="fragment">onCreate()</h4>
+						<p class="fragment"> É a primeira função a ser executada em uma Activity. Geralmente é a responsável por carregar os layouts XML e outras operações de inicialização. É executada apenas uma vez.
+</p>
+						<h4 class="fragment">onStart()</h4>
+						<p class="fragment"> É chamada imediatamente após a onCreate() – e também quando uma Activity que estava em background volta a ter foco.</p>
+					</section>
+					<section>
+						<h4 class="fragment">onResume()</h4>
+						<p class="fragment">Assim como a onStart(), é chamada na inicialização da Activity e também quando uma Activity volta a ter foco. Qual a diferença entre as duas? A onStart() só é chamada quando a Activity não estava mais visível e volta a ter o foco, a onResume() é chamada nas “retomadas de foco”.</p>
+
+						<h4 class="fragment">onPause()</h4>
+						<p class="fragment">É a primeira função a ser invocada quando a Activity perde o foco (isso ocorre quando uma nova Activity é iniciada).</p>
+					</section>
+					<section>
+						<h4 class="fragment">onStop()</h4>
+						<p class="fragment">Só é chamada quando a Activity fica completamente encoberta por outra Activity.</p>
+
+						<h4 class="fragment">onDestroy()</h4>
+						<p class="fragment">A última função a ser executada. Depois dela, a Activity é considerada “morta” – ou seja, nao pode mais ser relançada. Se o usuário voltar a requisitar essa Activity, um novo objeto será contruído.</p>
+					</section>
+					<section>
+						<h4 class="fragment">onRestart()</h4>
+						<p class="fragment">Chamada imediatamente antes da onStart(), quando uma Activity volta a ter o foco depois de estar em background.</p>
+						<p><i>definição e imagem do DEVMEDIA</i></p>
+					</section>
+					<section data-background="../images/img19.gif">
+						<h1>Views</h1>
+					</section>
+					<section data-background="../images/img20.gif">
+						<h1>Compilando</h1>
+					</section>
+					<section>
+						<h2 class="fragment">1- Usando um AVD(Android virtual device)</h2>
+						<h2 class="fragment">2- Usando seu smartphone</h2>
+					</section>
 				</section>
 			</div>
 		</div>
